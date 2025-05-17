@@ -1,8 +1,7 @@
 class Solution:
     def sortColors(self, nums: List[int]) -> None:
-        n=len(nums)
         p1=0
-        p2=n-1
+        p2=len(nums)-1
         cur=0
         while(cur<=p2):
             if nums[cur] == 0:
