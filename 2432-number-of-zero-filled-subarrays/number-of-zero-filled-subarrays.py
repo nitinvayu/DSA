@@ -11,6 +11,5 @@ class Solution:
                 while(right<n and nums[right]==0):
                     right+=1
                     ans+=right-left
-                left=right
-                
+                left=right   
         return ans
